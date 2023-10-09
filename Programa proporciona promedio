@@ -1,0 +1,26 @@
+/******************************************************************************
+Programa proporciona promedio 
+Autor: Elisa Michelle MV.
+Fecha: 230322
+*******************************************************************************/
+#include <iostream>
+using namespace std;
+int main()
+{
+    //Declaración de variables 
+    float promedio; float Precio1; float Precio2; float Precio3;
+    
+    
+    //Entrada de datos por teclado y procedimientos 
+    cout << " Escribe el valor del Precio1 " ;
+    cin>>Precio1;
+    cout << " Escribe el valor del Precio2  " ;
+    cin>>Precio2;
+    cout << " Escribe el valor del Precio3  " ;
+    cin>>Precio3;
+
+    promedio= (Precio1 + Precio2 + Precio3) / 3  ;
+    cout<< " El promedio es igual a  " <<promedio<<endl;
+    
+    return 0;
+}
